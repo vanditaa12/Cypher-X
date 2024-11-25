@@ -1,0 +1,87 @@
+/* Styles for Dashboard */
+
+.dashboard {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .hero-section {
+    height: 70vh;
+    background-image: url("/images/background.jpeg"); /* Make sure the path is correct */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .primary-button,
+  .secondary-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .primary-button {
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .primary-button:hover {
+    background-color: #cc5200;
+  }
+  
+  .secondary-button {
+    background-color: white;
+    color: #ff6600;
+    border: 2px solid #ff6600;
+  }
+  
+  .secondary-button:hover {
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .info-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .info-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .info-section p {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #666;
+  }
+  
