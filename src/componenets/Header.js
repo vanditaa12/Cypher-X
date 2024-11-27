@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Header.css"; // Add styles in this file
+import "./Header.css" // Add styles in this file
 import { FaHome, FaUsers, FaUserShield, FaKey } from "react-icons/fa";
 
 const Header = () => {
